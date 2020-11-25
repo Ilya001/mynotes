@@ -1,0 +1,4 @@
+tarantool_addr = "tarantoolapp:3301"
+# tarantool_addr = "localhost:3301"
+user = "admin"
+pass = "pass"

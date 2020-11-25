@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&display=swap");
+body {
+  color: #e8e6e3;
+  background-color: #181a1b;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+}
+
+h1, h2, h3, p, ul, a {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #d77621;
+}
+
+#app {
+  max-width: 1170px;
+  margin: auto;
+}
+
+@media screen and (max-width: 1200px) {
+  #app {
+    max-width: 880px;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  #app {
+    max-width: 90vw;
+  }
+}
+
+:focus {
+  outline: none;
+}
+
+.created-elements {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.created-elements .delete {
+  color: #b30e0e;
+}
+
+.created-elements .delete:hover {
+  color: #e8e6e3;
+  background-color: red;
+  -webkit-box-shadow: 0 0 0 10px red, 0 0 0 12px red;
+          box-shadow: 0 0 0 10px red, 0 0 0 12px red;
+}
+
+.created-elements button {
+  font-family: 'Oswald', sans-serif;
+  background: rgba(0, 0, 0, 0);
+  color: #e8e6e3;
+  border: 0;
+  font-size: 20px;
+  border-radius: 1em;
+}
+
+.created-elements button:hover {
+  background-color: black;
+  -webkit-box-shadow: 0 0 0 10px #000, 0 0 0 12px #888;
+          box-shadow: 0 0 0 10px #000, 0 0 0 12px #888;
+}
+
+@media screen and (max-width: 890px) {
+  .created-elements button {
+    margin: 10px 0;
+  }
+}
+
+@media screen and (max-width: 625px) {
+  .created-elements {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.row {
+  margin: 50px auto;
+}
+
+@media screen and (min-width: 1328px) {
+  .row {
+    width: 50vw;
+  }
+}
+
+.note {
+  margin: 3em 0;
+  width: 100%;
+  font-size: 20px;
+  background-color: #000;
+  -webkit-box-shadow: 0 0 0 10px #000, 0 0 0 12px #888;
+          box-shadow: 0 0 0 10px #000, 0 0 0 12px #888;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.note .actions {
+  margin-top: 10px;
+  border-top: 1px solid #888;
+  padding: 0.5em;
+  cursor: default;
+}
+
+.note .toolbar {
+  margin-bottom: 10px;
+  border-bottom: 1px solid #888;
+  padding: 0.5em;
+  cursor: default;
+}
+
+.note span {
+  margin-right: 1em;
+  font-size: 18px;
+}
+
+.note .green:hover {
+  color: green;
+  cursor: pointer;
+}
+
+.note .red:hover {
+  color: red;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
